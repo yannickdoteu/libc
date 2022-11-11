@@ -6,7 +6,7 @@
 #    By: yaretel- <yaretel-@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/13 16:40:42 by yaretel-          #+#    #+#              #
-#    Updated: 2022/10/14 15:00:57 by yaretel-         ###   ########.fr        #
+#    Updated: 2022/11/11 16:32:29 by yaretel-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,16 @@ SRCS		=	ft_atoi.c\
 				ft_substr.c\
 				ft_tolower.c\
 				ft_toupper.c\
-				ft_striteri.c
+				ft_striteri.c\
+				ft_base_is_valid.c\
+				ft_charstr.c\
+				ft_putchar.c\
+				ft_putint_base.c\
+				ft_putuint_base.c\
+				ft_putstr.c\
+				ft_putul_base.c\
+				ft_setzero.c\
+				ft_printf.c
 
 BSRCS		=	ft_lstnew_bonus.c\
 				ft_lstadd_front_bonus.c\
@@ -54,7 +63,7 @@ BSRCS		=	ft_lstnew_bonus.c\
 				ft_lstdelone_bonus.c\
 				ft_lstclear_bonus.c\
 				ft_lstiter_bonus.c\
-				ft_lstmap_bonus.c\
+				ft_lstmap_bonus.c
 
 CC			=	cc
 CFLAGS		=	-Wall -Wextra -Werror -I.
