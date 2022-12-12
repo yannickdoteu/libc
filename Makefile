@@ -6,7 +6,7 @@
 #    By: yaretel- <yaretel-@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/13 16:40:42 by yaretel-          #+#    #+#              #
-#    Updated: 2022/11/11 16:32:29 by yaretel-         ###   ########.fr        #
+#    Updated: 2022/12/12 16:07:48 by yaretel-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,6 +67,7 @@ BSRCS		=	ft_lstnew_bonus.c\
 
 CC			=	cc
 CFLAGS		=	-Wall -Wextra -Werror -I.
+EXTRAFLAGS	=	
 NAME		=	libft.a
 
 ifdef WITH_BONUS
@@ -81,7 +82,7 @@ $(NAME):		$(OBJS)
 				ar -rcs $(NAME) $(OBJS)
 
 %.o:			%.c $(HEADER)
-				$(CC) -c $(CFLAGS) -o $@ $<
+				$(CC) -c $(CFLAGS) $(EXTRAFLAGS) -o $@ $<
 
 clean:
 				rm -f $(OBJS) $(BSRCS:.c=.o)
