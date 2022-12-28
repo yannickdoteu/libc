@@ -6,7 +6,7 @@
 /*   By: yaretel- <yaretel-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 16:33:23 by yaretel-          #+#    #+#             */
-/*   Updated: 2022/11/11 16:33:11 by yaretel-         ###   ########.fr       */
+/*   Updated: 2022/12/28 10:37:51 by yaretel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,15 +85,15 @@ t_list	*ft_lsti(t_list *lst, unsigned int size);
 /*
 ** PRINTF
 */
-void			ft_set2zero(int *one, int *two);
-void			ft_set3zero(int *one, int *two, int *three);
-void			ft_putul_base(unsigned long int nb, char *base, int *count);
-void			ft_putstr(char *s, int *count);
-void			ft_putint_base(int nbr, char *base, int *count);
-int				ft_base_is_valid(char *base);
-int				ft_charstr(char c, char *set);
-void			ft_putchar(char c, int *count);
-int				ft_printf(const char *s, ...);
-void			ft_putuint_base(unsigned int nbr, char *base, int *count);
+void	ft_set2zero(int *one, int *two);
+void	ft_set3zero(int *one, int *two, int *three);
+void	ft_putul_base(unsigned long int nb, char *base, int *count);
+void	ft_putstr(char *s, int *count);
+void	ft_putint_base(int nbr, char *base, int *count);
+int		ft_base_is_valid(char *base);
+int		ft_charstr(char c, char *set);
+void	ft_putchar(char c, int *count);
+int		ft_printf(const char *s, ...);
+void	ft_putuint_base(unsigned int nbr, char *base, int *count);
 
 #endif
